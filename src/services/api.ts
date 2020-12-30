@@ -1,7 +1,8 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'http://10.0.0.173:3333',
+  baseURL:
+    'https://my-json-server.typicode.com/LeoGomes0919/GoMarketplace-server/',
 });
 
 export default api;
